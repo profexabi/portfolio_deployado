@@ -8,4 +8,71 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+
+header {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    /* border: 1px solid red; */
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    /* border: 1px solid green; */
+    width: 25%;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+    /* border: 1px solid; */
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    width: 55%;
+    padding-top: 2%;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1edea;
+    height: 94vh;
+    justify-content: space-evenly;
+}
+
+.portada video {
+    width: 100%;
+}
+
+.portada button {
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    border-radius: 48px;
 }
